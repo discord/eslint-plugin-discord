@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-discord",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ESLint plugins for Discord",
   "main": "index.js",
   "scripts": {

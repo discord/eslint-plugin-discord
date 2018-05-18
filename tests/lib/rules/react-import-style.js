@@ -7,7 +7,10 @@ module.exports = ruleTester =>
     valid: [
       `
 /* @flow */
-import * as React from 'react';`,
+
+import * as React from 'react';
+import B from 'B';
+`,
       `import A from 'A';`,
     ],
 
