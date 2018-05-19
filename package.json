@@ -9,7 +9,8 @@
   "keywords": ["eslint", "eslint-plugin", "eslintplugin"],
   "devDependencies": {
     "eslint": "4.19.1",
-    "mocha": "5.0.5"
+    "mocha": "5.0.5",
+    "jsx-ast-utils": "2.0.1"
   },
   "private": true
 }

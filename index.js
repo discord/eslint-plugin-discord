@@ -1,6 +1,6 @@
 module.exports = {
   rules: {
     'react-import-style': require('./lib/rules/react-import-style'),
-    'use-anchor-component': require('./lib/rules/use-anchor-component'),
+    'use-a11y-component': require('./lib/rules/use-a11y-component'),
   },
 };

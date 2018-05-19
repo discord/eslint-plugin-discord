@@ -12,6 +12,6 @@ const ruleTester = new RuleTester({
   },
 });
 
-const rules = [require('./rules/react-import-style'), require('./rules/use-anchor-component')];
+const rules = [require('./rules/react-import-style'), require('./rules/use-a11y-component')];
 
 rules.forEach(rule => rule(ruleTester));
