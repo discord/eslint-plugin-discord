@@ -12,6 +12,10 @@ const ruleTester = new RuleTester({
   },
 });
 
-const rules = [require('./rules/react-import-style'), require('./rules/use-a11y-component')];
+const rules = [
+  require('./rules/react-import-style'),
+  require('./rules/use-a11y-component'),
+  require('./rules/camelcase-deprecation-support'),
+];
 
 rules.forEach(rule => rule(ruleTester));
