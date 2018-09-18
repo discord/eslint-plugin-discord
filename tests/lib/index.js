@@ -16,6 +16,7 @@ const rules = [
   require('./rules/react-import-style'),
   require('./rules/use-a11y-component'),
   require('./rules/camelcase-deprecation-support'),
+  require('./rules/explicit-createref-type'),
 ];
 
 rules.forEach(rule => rule(ruleTester));
