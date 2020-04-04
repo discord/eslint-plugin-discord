@@ -16,6 +16,3 @@ insert_final_newline = true
 [{*.txt,*.md,*.mkdn,*.mdown,*.markdown}]
 max_line_length = 0
 trim_trailing_whitespace = false
-
-[{*.js,*.tsx}]
-quote_type = single
