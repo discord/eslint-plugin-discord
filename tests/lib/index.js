@@ -17,6 +17,7 @@ const rules = [
   require('./rules/use-a11y-component'),
   require('./rules/camelcase-deprecation-support'),
   require('./rules/explicit-createref-type'),
+  require('./rules/store-connect-deps'),
 ];
 
-rules.forEach(rule => rule(ruleTester));
+rules.forEach((rule) => rule(ruleTester));
